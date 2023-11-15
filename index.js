@@ -164,5 +164,5 @@ app.get("/", (req, res) => {
   res.send("RideWave Server is running");
 });
 app.listen(port, () => {
-  console.log(`Ridewave is running on port ${port}`);
+  console.log(`RideWave is running on port ${port}`);
 });
