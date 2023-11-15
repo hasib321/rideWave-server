@@ -34,6 +34,7 @@ async function run() {
     const serviceCollection = client.db("rideWaveDB").collection("services");
     const bookingCollection = client.db("rideWaveDB").collection("bookings");
 
+    //service update
     app.put("/service/:id", async (req, res) => {
       const id = req.params.id;
       const user = req.body;
