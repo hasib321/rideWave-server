@@ -9,7 +9,10 @@ const port = process.env.PORT || 5000;
 //MIDDLEWARE
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: [
+      "https://ridewave-c32fe.web.app",
+      "https://ridewave-c32fe.firebaseapp.com",
+    ],
     credentials: true,
   })
 );
